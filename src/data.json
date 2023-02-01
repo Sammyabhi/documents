@@ -1,0 +1,117 @@
+[
+    {
+      "id": "d1546e11",
+      "title":"Preamble",
+      "para":  "Chapter  9 Terms  and  data  dictionary Table  of  contents"
+            
+    },
+    {
+      "id": "d1546e248",
+      "title": " Introduction",
+      "para": 
+        "  Table  of  contents  Page   List  of  tables 1  References  ..  1"
+    },
+    {
+        "id": "d154623e48",
+        "title": " Terms  and  definitions ",
+        "para": 
+        "  Chap  9.2  Terms  and  definitions  -  Terms,  acronyms  and  subject   index   Chap  9.3  Terms  and  definitions  -  Schema  documentation"
+
+      },
+      {
+        "id": "d15462e23248",
+        "title": "  definitions  ",
+        "para": 
+        "  access  illustration  An  access  illustration  is  a  data  module  with  one  or  more   illustrations  used  to  support  the  navigation  of  an  interactive   publication."
+      },
+      {
+        "id": "d154623e4348",
+        "title": " Terms  and  definitions  -  Introduction",
+        "para": 
+        "  Business  Rule  (BR)  A  rule  that  has  been  applied  by  a  project  or  an  organization   about  how  to  implement  a  particular  aspect  of  S1000D  and   is  normally  the  result  of  a  business  rule  decision."
+      },
+      {
+        "id": "d1546e435238",
+        "title": " Terms ",
+        "para": 
+        "  Chap  2.5.1  Business  rules  -  Categories  and  layers   Chap  2.5.2  Business  rules  -  Generation  and  use   Chap  2.5.3  Business  rules  -  Index"
+      },
+      {
+        "id": "d1546343ewr4e48",
+        "title": "Motion",
+        "para": 
+        "  The  examples  given  after  the  definitions  of  each  business  rules  category  in  Para  2.1  thru   Para  2.10  are  not  exhaustive  and  are  only  intended  to  provide  the  reader  with  a  guide  how   these  categories  of  rules  can  be  covered.  The  word  \"must\"  means  in  this  example  that  a  certain   business  rule  must  be  followed  only  by  this  particular  example  project  or  organization."
+      },
+      {
+        "id": "d1546e4sdewrf8",
+        "title": "  definitions  -  Introduction",
+        "para": 
+        "  An  implementation  guide  will  offer  guidance  for  S1000D  implementation  in  its  various  facets."
+      },
+      {
+        "id": "d15sdf46ecxv48",
+        "title": " Terms  ",
+        "para": 
+        "  languages  adopted  by  the  project."
+      },
+      {
+        "id": "d15dsf46e11",
+        "title":"Preamble",
+        "para": "Chapter  9 Terms  and  data  dictionary Table  of  contents"
+      },
+      {
+        "id": "d1546edsf248",
+        "title": " Terms  and  definitions  -  Introduction",
+        "para": 
+          "  Table  of  contents  Page   List  of  tables 1  References  ..  1"
+      },
+      {
+          "id": "d15sdf4623e48",
+          "title": "Examples",
+          "para": 
+          "  Chap  9.2  Terms  and  definitions  -  Terms,  acronyms  and  subject   index   Chap  9.3  Terms  and  definitions  -  Schema  documentation"
+  
+        },
+        {
+          "id": "d15fddsf462e23248",
+          "title": "Parhfinder",
+          "para": 
+          "  access  illustration  An  access  illustration  is  a  data  module  with  one  or  more   illustrations  used  to  support  the  navigation  of  an  interactive   publication."
+        },
+        {
+          "id": "dsfd154623e4348",
+          "title": "Documnets",
+          "para": 
+          "  Business  Rule  (BR)  A  rule  that  has  been  applied  by  a  project  or  an  organization   about  how  to  implement  a  particular  aspect  of  S1000D  and   is  normally  the  result  of  a  business  rule  decision."
+        },
+        {
+          "id": "d1546e4dsf35238",
+          "title": " Terms  and  definitions  -  Introduction",
+          "para": 
+          "  Chap  2.5.1  Business  rules  -  Categories  and  layers   Chap  2.5.2  Business  rules  -  Generation  and  use   Chap  2.5.3  Business  rules  -  Index"
+        },
+        {
+          "id": "d1546e23248",
+          "title": "Knowledege",
+          "para": 
+          "  A  business  rules  category  is  a  unique  grouping  that  describes  rules  applicable  to  product   definition,  maintenance  philosophy,  concepts  of  operation,  security,  business  processes,  data   creation,  data  exchange,  data  integrity,  data  output  and/or  legacy  data  conversion,   management,  handling  and  other  issues."
+        },
+        {
+          "id": "d154dsf63434e48",
+          "title": "Real Time",
+          "para": 
+          "  The  examples  given  after  the  definitions  of  each  business  rules  category  in  Para  2.1  thru   Para  2.10  are  not  exhaustive  and  are  only  intended  to  provide  the  reader  with  a  guide  how   these  categories  of  rules  can  be  covered.  The  word  \"must\"  means  in  this  example  that  a  certain   business  rule  must  be  followed  only  by  this  particular  example  project  or  organization."
+        },
+        {
+          "id": "d1546e435sdf8",
+          "title": " Workspace",
+          "para": 
+          "  An  implementation  guide  will  offer  guidance  for  S1000D  implementation  in  its  various  facets."
+        },
+        {
+          "id": "d1546324ecxv48",
+          "title": "AIR BUS",
+          "para": 
+          "  languages  adopted  by  the  project."
+        }
+]

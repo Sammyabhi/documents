@@ -1,0 +1,351 @@
+/*******************************************************************************
+* Css for all Components
+* Contributors: Abhishek Kuamr Yadav 
+*******************************************************************************/
+#header {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-placer-left,
+.logo-placer-right {
+  height: 30px;
+}
+
+.logo-placer-left {
+  display: inline-block;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-placer-right {
+  float: right;
+  margin: 4px 10px;
+}
+
+.logo {
+  display: block;
+  height: 100%;
+  /*margin: 0 auto;*/
+}
+
+#header,
+#menubar {
+  border-bottom: 1px solid;
+}
+
+#footer {
+  border-top: 1px solid;
+}
+
+#header,
+#footer,
+#menubar {
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: #F5F5F5;
+}
+
+.project {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width: 550px) {
+  #header {
+    height: 50px
+  }
+
+  .logo-placer-left,
+  .logo-placer-right {
+    height: 50px;
+  }
+
+  .logo-placer-left {
+    width: 260px;
+  }
+
+  .logo-placer-right {
+    margin: 12px 25px;
+  }
+
+  .project {
+    font-size: 20px;
+    margin-top: 11px;
+  }
+}
+
+@media(min-width: 670px) {
+  .logo-placer-right::before {
+    font-style: italic;
+    content: "Please provide us with your ";
+  }
+}
+
+.disclaimer {
+  padding: 0 10px;
+}
+
+.Footer {
+  font-style: italic;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 34px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+#Search-container {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 50px;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: #F5F5F5;
+  padding: 5px 25px 5px 10px;
+}
+
+.search {
+
+  display: inline-block;
+  outline: none;
+  padding: 5px;
+  width: 460px;
+}
+
+.button {
+  margin-left: 5px !important;
+}
+
+@media (max-width: 540px) {
+  .search {
+
+    display: inline-block;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+  }
+
+  .button {
+    height: 25px;
+    padding: 5px !important;
+    margin: 5px !important;
+    margin-top: 8px !important;
+  }
+
+  .logo-placer-right {
+    margin: 4px;
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .project {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .heder-result {
+    font-size: 20px !important;
+  }
+
+  .para-result {
+    font-size: 14px !important;
+  }
+
+  #Search-container {
+    height: 75px;
+  }
+
+  .main-conatiner {
+    margin-top: 20px;
+  }
+}
+
+.my-epc {
+  float: right;
+}
+
+.container-search {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+
+}
+
+.result-pagination {
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  left: 1000px;
+  height: 34px;
+}
+
+#result-filter {
+  border-left: 1px solid;
+  height: 960px;
+  position: absolute;
+  left: 25%;
+  top: 100px;
+  width: 75%;
+  overflow: auto;
+  background-color: #F5F5F5;
+
+}
+
+#filter-primary {
+  height: 900px;
+  position: absolute;
+  left: 0%;
+  margin-top: -10px;
+  top: 100px;
+  width: 25%;
+  background-color: #F5F5F5;
+  /* overflow:auto; */
+
+}
+
+#filter-second {
+  height: 900px;
+  position: absolute;
+  left: 0%;
+  top: 195px;
+  width: 25%;
+  background-color: #F5F5F5;
+  overflow: auto;
+
+}
+
+/* #filter-secondary{
+  position:fixed;
+  bottom: 200px;
+  left:5%;
+} */
+
+.filter-header {
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+}
+
+.filter-form {
+  position: fixed;
+  padding: 4px 16px 2px 4px;
+  left: 5%;
+}
+
+.main-conatiner {
+  left: 25%;
+  padding: 20px;
+  z-index: -1;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.id-result {
+  height: max-content;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 192, 192);
+  position: relative;
+}
+
+.heder-result {
+  /* border: 1px solid rgb(200, 66, 66);  */
+  color: #1e3787;
+  padding: 0%;
+}
+
+.hr-result {
+  margin-top: -10px;
+  padding: 0px;
+  height: 1px;
+  background-color: rgb(192, 192, 192);
+  border: none;
+}
+
+.para-result {
+  font-size: large;
+  width: 1400px;
+  height:99px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#heading-result {
+  display: flex;
+  flex-direction: row;
+}
+
+#pdficon {
+  margin-left: auto;
+  margin-right: -30px;
+}
+
+#filter-mainresult {
+  margin-top: 30px;
+  padding: 0px;
+  height: 1px;
+  background-color: #F5F5F5;
+  border: none;
+}
+.download{
+  margin-left: auto;
+  opacity:0;
+}
+.filter-button{
+  margin-right: auto;
+  margin-left: -20px;
+  width: 200px;
+  background-color: #F5F5F5;
+  position: fixed;
+  opacity: 0;
+}
+#loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(155, 155, 155, 0.7);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.download-button{
+  /* margin-left: auto;
+  margin-right: -10px !important; */
+  padding: 0px !important;
+  position: absolute;
+  right: 5%;
+ opacity: 1;
+}
+.pdf-icon{
+font-size:20px;
+}
